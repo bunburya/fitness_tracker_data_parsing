@@ -101,7 +101,7 @@ def get_tcx_point_data(point: lxml.etree._Element) -> Optional[Dict[str, Union[f
     
 
 def get_dataframes(fname: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
-    """Takes the path to a GPX file (as a string) and returns two Pandas
+    """Takes the path to a TCX file (as a string) and returns two Pandas
     DataFrames: one containing data about the laps, and one containing
     data about the individual points.
     """
